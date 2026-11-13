@@ -7,7 +7,7 @@
     <!-- PWA Manifest Link -->
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#25D366">
-    <style>
+      <style>
         :root {
             --primary: #25D366;
             --primary-dark: #1EBE5D;
@@ -71,127 +71,62 @@
             font-weight: 600;
         }
         .price {
-<style>
-    :root {
-        --primary: #25D366;
-        --primary-dark: #1EBE5D;
-        --dark: #222;
-        --light: #FF9933; /* Changed to Saffron */
-    }
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    }
-    body {
-        background-color: var(--light); /* Applies saffron background to the whole page */
-        color: var(--dark);
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    header {
-        text-align: center;
-        margin-bottom: 24px;
-        color: #fff; /* Optional: Makes header text white so it pops against saffron */
-    }
-    h1 {
-        font-size: 1.5rem;
-        margin-bottom: 6px;
-    }
-    p.subtitle {
-        color: #fff; /* Optional: Makes subtitle white */
-        font-size: 0.95rem;
-    }
-    .container {
-        width: 100%;
-        max-width: 480px;
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .card {
-        background: #fff;
-        border-radius: 12px;
-        overflow: hidden;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        display: flex;
-        flex-direction: column;
-    }
-    .card img {
-        width: 100%;
-        height: 300px;
-        object-fit: cover;
-    }
-    .card-body {
-        padding: 16px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .item-title {
-        font-size: 1.1rem;
-        font-weight: 600;
-    }
-    .price {
-        font-size: 1.2rem;
-        font-weight: 700;
-        color: #d90429;
-    }
-    .contact-section {
-        background: #fff;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-    }
-    .btn {
-        display: inline-block;
-        padding: 12px 20px;
-        border-radius: 8px;
-        text-decoration: none;
-        font-weight: 600;
-        font-size: 1rem;
-        text-align: center;
-        transition: background 0.2s;
-    }
-    .btn-whatsapp {
-        background-color: #25D366;
-        color: white;
-    }
-    .btn-whatsapp:hover {
-        background-color: #1EBE5D;
-    }
-    .btn-call {
-        background-color: #007bff;
-        color: white;
-    }
-    .btn-call:hover {
-        background-color: #0056b3;
-    }
-    .qr-section {
-        background: #fff;
-        padding: 20px;
-        border-radius: 12px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-        text-align: center;
-    }
-    .qr-section h3 {
-        font-size: 1rem;
-        margin-bottom: 12px;
-        color: #444;
-    }
-    #qrcode {
-        display: flex;
-        justify-content: center;
-        margin-top: 8px;
-    }
-</style>
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #e63946;
+        }
+        .contact-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1rem;
+            text-align: center;
+            transition: background 0.2s;
+        }
+        .btn-whatsapp {
+            background-color: var(--primary);
+            color: white;
+        }
+        .btn-whatsapp:hover {
+            background-color: var(--primary-dark);
+        }
+        .btn-call {
+            background-color: #007bff;
+            color: white;
+        }
+        .btn-call:hover {
+            background-color: #0056b3;
+        }
+        .qr-section {
+            background: #fff;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            text-align: center;
+        }
+        .qr-section h3 {
+            font-size: 1rem;
+            margin-bottom: 12px;
+            color: #444;
+        }
+        #qrcode {
+            display: flex;
+            justify-content: center;
+            margin-top: 8px;
+        }
+    </style>
 
 </head>
 <body>
